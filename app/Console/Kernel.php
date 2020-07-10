@@ -26,7 +26,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
 //         $schedule->command('inspire')->hourly();
-        Log::info("测试任务调度".time());
+        Log::info("测试任务调度1".time());
 
     }
 
